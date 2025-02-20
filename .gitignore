@@ -22,3 +22,5 @@ node_modules
 *.log
 .env
 bun.lockb
+
+.DS_Store

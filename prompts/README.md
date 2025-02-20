@@ -20,7 +20,7 @@ A prompt for generating Substack articles from an outline. Focuses on clear stru
 A meta-prompt for generating other prompts. It helps create detailed and effective prompts by analyzing user input and generating comprehensive prompt templates with proper structure and variables.
 
 ### outline-generation.xml
-A prompt for creating structured outlines for Substack posts. Takes post title, goals, and questions to answer as input to generate a markdown outline.
+A prompt for creating structured outlines for Substack posts. Takes post title, goals, and questions to answer as input to generate a markdown outline. Deep research LLMs like Perplexity make for a great LLM to use this prompt because they will dig deep to find information.
 
 ### pairProgrammingSystem.md
 A comprehensive guide for AI pair programming partners. Defines the role, communication protocols, development workflow using TDD/XP principles, code quality standards, and working principles for effective collaboration.
