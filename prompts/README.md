@@ -30,3 +30,8 @@ XML-formatted version of the pair programming system prompt, structured with cle
 
 ### proofreading.xml
 A prompt for proofreading articles with a focus on technical writing. Identifies typos and suggests improvements while maintaining the original meaning of the text.
+
+### prompt-engineering-learnings.md
+A running list of learnings about prompt engineering.
+This will help me keep track of all of the tips and trick that I learn along the path
+to prompt engineering mastery.
