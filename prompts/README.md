@@ -13,25 +13,13 @@ These prompts are constantly evolving and will be updated as necessary.
 
 ## List of prompts
 
-### article-generation.xml
-A prompt for generating Substack articles from an outline. Focuses on clear structure, succinct tone, and using examples/analogies to explain complex concepts.
-
-### metaprompt.xml
-A meta-prompt for generating other prompts. It helps create detailed and effective prompts by analyzing user input and generating comprehensive prompt templates with proper structure and variables.
-
-### outline-generation.xml
-A prompt for creating structured outlines for Substack posts. Takes post title, goals, and questions to answer as input to generate a markdown outline. Deep research LLMs like Perplexity make for a great LLM to use this prompt because they will dig deep to find information.
-
-### pairProgrammingSystem.md
-A comprehensive guide for AI pair programming partners. Defines the role, communication protocols, development workflow using TDD/XP principles, code quality standards, and working principles for effective collaboration.
-
-### pairProgrammingSystem.xml
-XML-formatted version of the pair programming system prompt, structured with clear sections for better LLM parsing and understanding. Contains the same content as the MD version but with explicit XML tagging.
-
-### proofreading.xml
-A prompt for proofreading articles with a focus on technical writing. Identifies typos and suggests improvements while maintaining the original meaning of the text.
-
-### prompt-engineering-learnings.md
-A running list of learnings about prompt engineering.
-This will help me keep track of all of the tips and trick that I learn along the path
-to prompt engineering mastery.
+- contentCreation/
+  - **article-generation.xml**: Prompt to generate detailed article drafts using AI suggestions.
+  - **playbook-outline-generation.xml**: Prompt to generate outlines for software development playbooks.
+  - **proofreading.xml**: Prompt to assist with proofreading and improving text content.
+  - **substack-outline-generation.xml**: Prompt to generate outlines for Substack articles focusing on tech topics.
+- **metaprompt.xml**: A meta prompt that provides overarching guidelines and context for the other prompts.
+- **prompt-engineering-learnings.md**: Documentation capturing insights and lessons learned from prompt engineering experiments.
+- writingSoftware/
+  - **pairProgrammingSystem.md**: Markdown explanation of the pair programming system prompt and its usage in collaborative coding.
+  - **pairProgrammingSystem.xml**: XML explanation of the pair programming system prompt and its usage in collaborative coding.
