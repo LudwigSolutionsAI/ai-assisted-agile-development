@@ -173,3 +173,31 @@ that mention shipping and delivery of the product.
 {{review}}
 </content>
 ```
+
+## Another great resource is https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+
+Some key takeaways:
+1. [Role prompting via system prompts](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts)
+
+Examples:
+```
+You are the General Counsel of a Fortune 500 tech company. We’re considering this software licensing agreement for our core data infrastructure:
+<contract>
+{{CONTRACT}}
+</contract>
+
+Analyze it for potential risks, focusing on indemnification, liability, and IP ownership. Give your professional opinion.
+```
+
+2. [Use XML tags](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags)
+
+3. [Chain prompt for comxplex workflows](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/chain-prompts)
+
+Examples:
+```
+Content creation pipelines: Research → Outline → Draft → Edit → Format.
+
+Decision-making: Gather info → List options → Analyze each → Recommend.
+```
+
+4. Use prompt improvement in [Anthropic console](https://console.anthropic.com/dashboard).
