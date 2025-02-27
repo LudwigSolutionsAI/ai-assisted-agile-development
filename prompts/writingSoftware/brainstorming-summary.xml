@@ -1,0 +1,14 @@
+<!--
+Original inspiration: https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/
+
+Use this prompt at the end of the interactive brainstorming session to 
+compile the findings into a comprehensive, developer-ready specification.
+
+Save output into spec.md in the repo.
+-->
+
+Now that we’ve wrapped up the brainstorming process, 
+compile our findings into a comprehensive, developer-ready specification.
+
+Include all relevant requirements, architecture choices, data handling details,
+error handling strategies, and a testing plan so a developer can immediately begin implementation.
